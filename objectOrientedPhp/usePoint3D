@@ -1,0 +1,6 @@
+<?php
+include("Point3D.php");
+
+$p1 = new Point3D(2, 5, 2);
+
+print $p1.toSting();
