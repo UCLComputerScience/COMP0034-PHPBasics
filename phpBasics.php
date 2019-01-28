@@ -10,20 +10,6 @@ print "Escape \"chars\" are the SAME as in Java!\n";
 print "You can have line breaks in a string."; print 'A string can use "single-quotes". It\'s cool!';
 */
 
-//Int and float types
-/*
-$a = 7 / 2;       	# float/double: 3.5
-$b = (int) $a;    	# int: 3
-$c = round($a);  	# float/double: 4.0
-$d = "123";      	# string: "123”
-$e = (int) $d;     	# int: 123
-print gettype($a)."\n";
-print gettype($b)."\n";
-print gettype($c)."\n";
-print gettype($d)."\n";
-print gettype($e)."\n";
-*/
-
 //String type
 /*
 $favorite_food = "Ethiopian";
@@ -55,6 +41,81 @@ print  $index."\n";
 print  $first."\n";
 print  $name."\n";
 */
+
+//Int and float types
+/*
+$a = 7 / 2;       	# float/double: 3.5
+$b = (int) $a;    	# int: 3
+$c = round($a);  	# float/double: 4.0
+$d = "123";      	# string: "123”
+$e = (int) $d;     	# int: 123
+print gettype($a)."\n";
+print gettype($b)."\n";
+print gettype($c)."\n";
+print gettype($d)."\n";
+print gettype($e)."\n";
+*/
+
+//Arithmetic and comparison operators
+/*
+print PHP_EOL."Addition +: ";
+print 2 + 3;
+print PHP_EOL."Subtraction -: ";
+print 2 - 3;
+print PHP_EOL."Multiplication *: ";
+print 2 * 3;
+print PHP_EOL."Division / ";
+print 2 / 3;
+print PHP_EOL.'% i.e. Remainder of $x divided by $y: ';
+print 5 % 4;
+print PHP_EOL."Concatenation . : ";
+print "2"."3";
+print PHP_EOL."Increment ++ : ";
+$n = 3;
+$n++;
+print $n;
+print PHP_EOL."Decrement -- : ";
+$n--;
+print $n;
+print PHP_EOL."Assignment = : ";
+$a = 3;
+$b = 4;
+$a = $b;
+print $a;
+print PHP_EOL.'Equals 3=="3" : ';
+$a = 3;
+$b = "3";
+if ($a == $b){
+    print "true";
+} else {
+    print "false";
+};
+print PHP_EOL.'Identical 3==="3" : ';
+$a = 3;
+$b = "3";
+if ($a === $b){
+    print "true";
+} else {
+    print "false";
+};
+print PHP_EOL."+= : ";
+$n = 3;
+print $n += 4;
+print PHP_EOL."-= : ";
+$n = 3;
+print $n -= 4;
+print PHP_EOL."*= : ";
+$n = 3;
+print $n *= 4;
+print PHP_EOL."/= : ";
+$n = 3;
+print $n /= 4;
+print PHP_EOL."Concatenation 3.=4 : ";
+$n = "3";
+print $n .= "4";
+
+*/
+
 
 //Boolean type
 /*
