@@ -178,6 +178,15 @@ for ($i = 0; $i < 10; $i++) {
 }
 */
 
+
+//Foreach
+/*
+$arr = array(1, 2, 3, 4);
+foreach ($arr as $value) {
+    echo $value ."<br>";
+}
+ */
+
 //If else statement
 /*
 if ($a > $b) {
