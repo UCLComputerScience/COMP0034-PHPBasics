@@ -54,7 +54,7 @@
 
         <?php
         // Free the results from memory
-        mysqli_free_result($result_set);
+        mysqli_free_result($result);
 
         // Close the connection
         closeDb($connection);
